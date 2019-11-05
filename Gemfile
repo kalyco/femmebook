@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '~> 2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.2'
+gem 'rails', '6.0.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
@@ -43,9 +43,17 @@ group :production do
   gem 'fog-aws'
 end
 
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'carrierwave'
 gem 'friendly_id', '~> 5.0'
+gem "actionview", ">= 5.0.7.2"
+gem "activejob", ">= 5.0.7.1"
+gem "rack", ">= 2.0.6"
+gem "ffi", ">= 1.9.24"
+gem "sprockets", ">= 3.7.2"
+gem "rails-html-sanitizer", ">= 1.0.4"
+gem "loofah", ">= 2.2.3"
+gem "nokogiri", ">= 1.10.4"
 
 gem 'will_paginate', '~> 3.1.0'
 gem 'public_activity'
@@ -58,7 +66,7 @@ gem 'counter_culture', '~> 0.1.33'
 gem 'faker'
 gem 'populator'
 gem 'auto_html', '~>1.6.4'
-gem 'sanitize'
+gem "sanitize", ">= 4.6.3"
 
 gem 'active_model_serializers'
 
