@@ -1,10 +1,11 @@
-## Socify
+## Femmebook
 
-Socify is an open source social networking platform written in Ruby on Rails. Here is the blog post: [How to build a social network using Rails](https://medium.com/@sudharshanmuralidharaniyer/eb31da569233).
+Scaffol Cconed from [Socify](https://github.com/scaffeinate/socify)
 
-[![Heroku](http://heroku-badge.herokuapp.com/?app=socifyapp&style=flat)](http://socifyapp.herokuapp.com)
+Femmebook is an open source social networking platform written in Ruby on Rails. 
+Made for social interactions between femmes and supporters. An application for solidarity in a crucial period in history for women.
 
-Do you want to see it in action? Here is a working version deployed to heroku [http://socifyapp.herokuapp.com](http://socifyapp.herokuapp.com)
+Check it in action [here](http://femmebook.herokuapp.com)
 
 ### UPDATE
 
