@@ -1,6 +1,6 @@
 ## Femmebook
 
-Scaffol Cconed from [Socify](https://github.com/scaffeinate/socify)
+Scaffold Cloned from [Socify](https://github.com/scaffeinate/socify)
 
 Femmebook is an open source social networking platform written in Ruby on Rails. 
 Made for social interactions between femmes and supporters. An application for solidarity in a crucial period in history for women.
@@ -10,7 +10,7 @@ Check it in action [here](http://femmebook.herokuapp.com)
 ### UPDATE
 
 Since my cloudinary free tier hit a bandwidth overload. So had to switch to AWS. If you plan on deploying to production please set the AWS key and secret as environment variables. Or you can checkout the older version which uses cloudinary 
-https://github.com/sudharti/socify/tree/930b2f7c6a6eb6b442189dc6237765dbf16d461c
+https://github.com/kalyco/femmebook/tree/930b2f7c6a6eb6b442189dc6237765dbf16d461c
 
 ### UPDATE #2
 
@@ -29,8 +29,8 @@ Updated the Rails version to 5.0. Thanks to [@briankung](https://github.com/bria
 To set it up on your local machine here is what you need to do. Install Ruby & Rails. Clone this repo using the following command:
 
 ```
-git clone https://github.com/sudharti/socify
-cd socify
+git clone https://github.com/kalyco/femmebook
+cd femmebook
 ```
 Then resolve dependencies using bundler:
 
@@ -59,7 +59,7 @@ rake fill:data
 
 This will create records with values from faker & populator gems. Also here are the test user credentials:
 
-* email: test@socify.com
+* email: test@femmebook.com
 * password: password
 
 ### Screenshots
@@ -77,7 +77,7 @@ This will create records with values from faker & populator gems. Also here are 
 * Send Pull Request
 
 ### Issues
-If you find any issue with the app please do raise an issue here https://github.com/sudharti/socify/issues
+If you find any issue with the app please do raise an issue here https://github.com/kalyco/femmebook/issues
 
 ### License
-This project is Licensed under the [GNU GPL V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). See  [LICENSE](https://github.com/sudharti/socify/blob/master/LICENSE) for more info.
+This project is Licensed under the [GNU GPL V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). See  [LICENSE](https://github.com/kalyco/femmebook/blob/master/LICENSE) for more info.
