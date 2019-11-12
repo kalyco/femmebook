@@ -1,4 +1,4 @@
-class CreatePosts < ActiveRecord::Migration[6.0]
+class CreatePosts < ActiveRecord::Migration
   def change
     create_table :posts do |t|
       t.text :content, null: false

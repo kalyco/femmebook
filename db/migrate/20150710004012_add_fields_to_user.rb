@@ -1,4 +1,4 @@
-class AddFieldsToUser < ActiveRecord::Migration[6.0]
+class AddFieldsToUser < ActiveRecord::Migration
   def change
     add_column :users, :sex, :string, null: false, default: 'male'
     add_column :users, :location, :string
