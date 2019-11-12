@@ -1,4 +1,4 @@
-class AddPostsCountToUsers < ActiveRecord::Migration
+class AddPostsCountToUsers < ActiveRecord::Migration[6.0]
 
   def self.up
     add_column :users, :posts_count, :integer, :null => false, :default => 0
